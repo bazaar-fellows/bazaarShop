@@ -1,0 +1,22 @@
+@import './_variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+footer{
+  z-index: 1;
+  position: fixed;
+  clear: both;
+  bottom: 0;
+  height: 2em;
+  text-align: center;
+  border-top: 2px double lightgray;
+  border-bottom: 2px double lightgray;
+  width: 100%;
+  background-color: $background;
+
+  a{
+    color: $textColor;
+    text-decoration: none;
+    font-size: .7em;
+  }
+}

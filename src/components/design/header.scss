@@ -1,0 +1,77 @@
+@import './_variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+header{
+  clear:both;
+  padding-top: 1em;
+  border-bottom: 2px double lightgrey;
+
+  padding-bottom: 30px;
+
+
+  img{
+    width: 3em;
+    height: 3em;
+    align-items: center;
+    // margin-bottom: 50px;
+    // padding-bottom:50px
+  }
+
+
+  .dropdown-content{
+    span{
+      color: $textColor;
+      display:block;
+      padding: 5px;
+
+      &:hover{
+        color:$textColorLight;
+      }
+    }
+  }
+
+  &.light{
+    background: $background;
+  }
+
+  &.dark{
+    background: $backgroundDark;
+  }
+
+  &.color{
+    background: $backgroundColor;
+  }
+
+  span{
+    color: '#333333';
+  }
+
+  div{
+    .cartNum{
+      background-color: transparent;
+      text-align: center;
+      margin-top: -3em;
+    }
+
+    .cart{
+      color: $textColor;
+      float:right;
+      font-size: .8em;
+      padding-right: 1em;
+      padding-top: .5em;
+      text-decoration: none;
+    }
+
+    h1{
+      font-family: 'Lato', sans-serif;
+      padding-bottom: 1em;
+      text-align:center;
+      padding-left: 1em;
+
+      a{
+        text-decoration: none;
+        color: $accentColor;
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+@import './_variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+nav{
+  border-top: 2px double lightgrey;
+  border-bottom: 2px double lightgrey;
+  font-family: 'Raleway', sans-serif;
+  // padding: 10px;
+  
+} 
+  ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: .5em;
+  
+    li{
+      color: $textColorLight;
+      font-size: .8em;
+      padding: 5px 0;
+      text-decoration: none;
+      
+      a{
+        color: $textColorLight;
+        text-decoration: none;
+
+        &:hover{
+          color: $accentColor;
+        }
+      }
+    }
+  }

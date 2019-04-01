@@ -1,0 +1,70 @@
+@import './_variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+  &.light{
+    background-color: $background;
+    color: $textColor;
+  }
+
+  &.dark{
+    background-color: $backgroundDark;
+    color: $textColorDark;
+  }
+
+  &.color{
+    background-color: $backgroundColor;
+    color: $textColorColor;
+  }
+
+  h3{
+
+    padding-top: 2em;
+    margin-bottom: -2.5em;
+
+    &.light{
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 1em;
+    text-align:center;
+
+    a{
+      text-decoration: none;
+      color: $textColor;
+    
+      &:hover {
+        color: $accentColor;
+      }
+    }
+    }
+
+    &.dark{
+      font-family: 'Lato', sans-serif;
+      padding-bottom: 1em;
+      text-align:center;
+    
+    a{
+      text-decoration: none;
+      color: $textColorDark;
+
+      &:hover {
+        color: $accentColorDark;
+      }
+    }
+    }
+    
+    &.color{
+      font-family: 'Lato', sans-serif;
+      padding-bottom: 1em;
+      text-align:center;
+    
+      a{
+        text-decoration: none;
+        color: $textColorColor;
+    
+        &:hover {
+          color: $accentColorColor;
+        }
+      }
+      }
+  }
+}

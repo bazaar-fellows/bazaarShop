@@ -1,0 +1,21 @@
+@import './_variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+p {
+    color: #231f20;
+    font-family: 'Lato', sans-serif;
+    margin: 25px 0 25px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .aboutContentContainer{
+    background-color: $background;
+    width: 70%;
+    float: left;
+  }
+
+.aboutInfo{
+  width: 25%;
+  float: right;
+}

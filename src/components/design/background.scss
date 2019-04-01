@@ -1,0 +1,25 @@
+@import './variables';
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+#background{
+  width: 100%;
+  z-index: -100;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  &.light{
+    background-color: $background;
+  }
+
+  &.dark{
+    background-color: $backgroundDark;
+  }
+
+  &.color{
+    background-color: $backgroundColor;
+  }
+}

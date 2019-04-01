@@ -1,0 +1,56 @@
+*{
+  padding: 0;
+  margin: 0
+}
+
+.ReactModal__Content {
+  position: absolute;
+    top: 11em;
+    left: 9em;
+    width: 500px;
+    background-color: white;
+    padding: 2em;
+}
+
+
+
+.background-over-lay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:rgba(0,0,0, .4);
+}
+
+.main-modal-container .x-span{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 30px;
+}
+
+.main-modal-container h1{
+  text-align: center;
+}
+
+.main-modal-container button{
+  padding: 5px 10px;
+  border: none;
+  background-color: #2c7695;
+  color: #fff;
+  font-size: 24px;
+}
+
+.price-btn-container-modal{
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.add-to-cart-text{
+  height: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+}
