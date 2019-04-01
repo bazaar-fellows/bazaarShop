@@ -4,7 +4,7 @@ import React from "react"
 import { connect } from 'react-redux';
 import CartNum from './cart-num';
 import '../components/design/header.scss';
-import ColorThemeButton from './ColorThemeButton';
+import ColorThemeButton from './colorThemeButton';
 import Nav from './Nav';
 
 
